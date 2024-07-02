@@ -1,0 +1,39 @@
+@use "../abstract/" as *;
+
+.btn {
+  padding: 0.8rem 2rem;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  border-radius: 2rem;
+  &.bg--secondary {
+    @extend .btn;
+    background-color: $clr-secondary;
+    border: 1px solid $clr-secondary;
+    font-weight: 700;
+    color: $clr-light;
+    box-shadow: rgba(231, 4, 4, 0.1) 0px 4px 12px;
+    &:hover {
+      background-color: $clr-light;
+      color: $clr-secondary;
+      transition: 0.5s;
+    }
+  }
+  &.bg--outline {
+    @extend .btn;
+    background-color: transparent;
+    color: $clr-secondary;
+    border: 1px solid $clr-secondary;
+    font-weight: 100;
+    box-shadow: rgba(231, 4, 4, 0.1) 0px 4px 12px;
+    &:hover {
+      color: $clr-light;
+      transition: 0.5s;
+    }
+  }
+  &.bg--radius {
+    @extend .btn;
+    @extend .bg--outline;
+    border-radius: 0.3rem;
+  }
+}

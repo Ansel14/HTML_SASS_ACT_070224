@@ -1,0 +1,178 @@
+@use "../abstract/" as *;
+@use "../base/" as *;
+
+// HOME BANNER
+.homeBanner {
+  padding: 10rem 0;
+  &__wrapper {
+    @include centerAll;
+    flex-direction: column;
+    h4 {
+      color: $clr-secondary;
+      font-weight: 200;
+      letter-spacing: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      color: $clr-light;
+      font-family: $font-secondary;
+      text-shadow: $clr-secondary -2px -2px;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+  }
+  &__button {
+    @include between;
+    gap: 1rem;
+  }
+}
+
+// Special Menu
+.homeMenu {
+  &__title {
+    @include centerAll;
+    flex-direction: column;
+  }
+  &__wrapper {
+    @include grid(3, 1rem);
+    img {
+      width: 17rem;
+    }
+  }
+  &__card {
+    text-align: center;
+    padding: 2rem 1rem;
+    border: 2px solid transparent;
+    margin-top: 3rem;
+    &:hover {
+      border: 2px solid $clr-secondary;
+      border-radius: 2rem;
+    }
+    p {
+      color: $clr-secondary;
+    }
+  }
+}
+
+// HOME ABOUT
+.homeAbout {
+  background-image: url(../../IMG/about.png);
+  @include bgImgSize;
+  height: 70vh;
+  width: 100%;
+  @include centerY;
+  &__text {
+    p {
+      max-width: 30rem;
+    }
+  }
+}
+
+// EXPLORE MENU
+.exploreMenu {
+  &__title {
+    @include centerAll;
+    flex-direction: column;
+  }
+  &__wrapper {
+    @include grid(2, 1rem);
+    justify-items: center;
+  }
+  &__content {
+    ul {
+      @include between;
+      li {
+        color: $clr-secondary;
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+    }
+    p {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+// BOOK A TABLE
+.booking {
+  &__wrapper {
+    @include centerAll;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../../IMG/book\ a\ table\ bg.jpg);
+    @include bgImgSize;
+    height: 120vh;
+  }
+  &__table {
+    padding: 5rem;
+    width: 60rem;
+    height: 45rem;
+    h4 {
+      font-size: 2rem;
+    }
+    form {
+      padding: 2rem;
+      border: 1px solid $clr-light;
+    }
+    input {
+      width: 98%;
+      margin: 0.5rem;
+      padding: 0.5rem;
+      background-color: transparent;
+      border: 1px solid $clr-secondary;
+      &::placeholder {
+        font-family: $font-primary;
+        color: $clr-light;
+      }
+      &:focus,
+      &:enabled {
+        color: $clr-light;
+      }
+    }
+    textarea {
+      @extend input;
+      height: 10rem;
+    }
+  }
+  &__fullName {
+    @include between;
+  }
+  &__button {
+    @include centerAll;
+  }
+}
+
+// TESTIMONIAL
+.testimonial {
+  &__wrapper {
+    @include centerAll;
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+  &__clients {
+    i {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      border: 2px solid $clr-secondary;
+      padding: 1.5rem;
+      border-radius: 50%;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    h4 {
+      font-size: 1.5rem;
+      color: $clr-secondary;
+      font-weight: 400;
+    }
+    small {
+      font-weight: 600;
+    }
+  }
+}
+
+// VIDEO
+.video {
+  &__wrapper {
+    @include centerAll;
+  }
+}

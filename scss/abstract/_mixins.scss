@@ -1,0 +1,75 @@
+// for making the content centered
+@mixin centerAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+// for center in Y axis
+@mixin centerY {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// for space-between
+@mixin between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// for bg image
+@mixin bgImgSize {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+// para di mabanat ang img
+@mixin imgFit($width: 300px, $height: 300px) {
+  width: $width;
+  height: $height;
+  object-fit: cover;
+  object-position: center;
+}
+
+// for grid
+@mixin grid($cols, $gap) {
+  display: grid;
+  grid-template-columns: repeat($cols, 1fr);
+  gap: $gap;
+}
+
+// responsive (with specific value)
+
+$mobile: 400px;
+$tablet: 768px;
+$desktop: 1024px;
+
+@mixin mobile {
+  @media (min-width: #{$mobile}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$mobile}) and (max-width: #{$tablet}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$tablet}) and (max-width: #{$desktop}) {
+    @content;
+  }
+}
+
+// without specific value
+
+@mixin mediaQuery($width) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}

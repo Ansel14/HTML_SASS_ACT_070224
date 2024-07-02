@@ -1,0 +1,1254 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Patrick+Hand&display=swap");
+.text--dark {
+  color: #0e1516;
+}
+
+.bg--dark {
+  background-color: #0e1516;
+}
+
+.text--light {
+  color: #fff;
+}
+
+.bg--light {
+  background-color: #fff;
+}
+
+.text--primary {
+  color: #20373c;
+}
+
+.bg--primary {
+  background-color: #20373c;
+}
+
+.text--secondary {
+  color: #dd1d01;
+}
+
+.bg--secondary {
+  background-color: #dd1d01;
+}
+
+.t-align--center {
+  text-align: center;
+}
+
+.t-align--left {
+  text-align: left;
+}
+
+.t-align--right {
+  text-align: right;
+}
+
+.t-align--justify {
+  text-align: justify;
+}
+
+.position--absolute {
+  position: absolute;
+}
+
+.position--relative {
+  position: relative;
+}
+
+.position--fixed {
+  position: fixed;
+}
+
+.position--static {
+  position: static;
+}
+
+.mt--0 {
+  margin-top: 0rem;
+}
+
+.mb--0 {
+  margin-bottom: 0rem;
+}
+
+.ml--0 {
+  margin-left: 0rem;
+}
+
+.mr--0 {
+  margin-right: 0rem;
+}
+
+.pt--0 {
+  padding-top: 0rem;
+}
+
+.pb--0 {
+  padding-bottom: 0rem;
+}
+
+.pl--0 {
+  padding-left: 0rem;
+}
+
+.pr--0 {
+  padding-right: 0rem;
+}
+
+.py--0 {
+  padding: 0rem 0;
+}
+
+.mt--1 {
+  margin-top: 1rem;
+}
+
+.mb--1 {
+  margin-bottom: 1rem;
+}
+
+.ml--1 {
+  margin-left: 1rem;
+}
+
+.mr--1 {
+  margin-right: 1rem;
+}
+
+.pt--1 {
+  padding-top: 1rem;
+}
+
+.pb--1 {
+  padding-bottom: 1rem;
+}
+
+.pl--1 {
+  padding-left: 1rem;
+}
+
+.pr--1 {
+  padding-right: 1rem;
+}
+
+.py--1 {
+  padding: 1rem 0;
+}
+
+.mt--2 {
+  margin-top: 2rem;
+}
+
+.mb--2 {
+  margin-bottom: 2rem;
+}
+
+.ml--2 {
+  margin-left: 2rem;
+}
+
+.mr--2 {
+  margin-right: 2rem;
+}
+
+.pt--2 {
+  padding-top: 2rem;
+}
+
+.pb--2 {
+  padding-bottom: 2rem;
+}
+
+.pl--2 {
+  padding-left: 2rem;
+}
+
+.pr--2 {
+  padding-right: 2rem;
+}
+
+.py--2 {
+  padding: 2rem 0;
+}
+
+.mt--3 {
+  margin-top: 3rem;
+}
+
+.mb--3 {
+  margin-bottom: 3rem;
+}
+
+.ml--3 {
+  margin-left: 3rem;
+}
+
+.mr--3 {
+  margin-right: 3rem;
+}
+
+.pt--3 {
+  padding-top: 3rem;
+}
+
+.pb--3 {
+  padding-bottom: 3rem;
+}
+
+.pl--3 {
+  padding-left: 3rem;
+}
+
+.pr--3 {
+  padding-right: 3rem;
+}
+
+.py--3 {
+  padding: 3rem 0;
+}
+
+.mt--4 {
+  margin-top: 4rem;
+}
+
+.mb--4 {
+  margin-bottom: 4rem;
+}
+
+.ml--4 {
+  margin-left: 4rem;
+}
+
+.mr--4 {
+  margin-right: 4rem;
+}
+
+.pt--4 {
+  padding-top: 4rem;
+}
+
+.pb--4 {
+  padding-bottom: 4rem;
+}
+
+.pl--4 {
+  padding-left: 4rem;
+}
+
+.pr--4 {
+  padding-right: 4rem;
+}
+
+.py--4 {
+  padding: 4rem 0;
+}
+
+.mt--5 {
+  margin-top: 5rem;
+}
+
+.mb--5 {
+  margin-bottom: 5rem;
+}
+
+.ml--5 {
+  margin-left: 5rem;
+}
+
+.mr--5 {
+  margin-right: 5rem;
+}
+
+.pt--5 {
+  padding-top: 5rem;
+}
+
+.pb--5 {
+  padding-bottom: 5rem;
+}
+
+.pl--5 {
+  padding-left: 5rem;
+}
+
+.pr--5 {
+  padding-right: 5rem;
+}
+
+.py--5 {
+  padding: 5rem 0;
+}
+
+.mt--6 {
+  margin-top: 6rem;
+}
+
+.mb--6 {
+  margin-bottom: 6rem;
+}
+
+.ml--6 {
+  margin-left: 6rem;
+}
+
+.mr--6 {
+  margin-right: 6rem;
+}
+
+.pt--6 {
+  padding-top: 6rem;
+}
+
+.pb--6 {
+  padding-bottom: 6rem;
+}
+
+.pl--6 {
+  padding-left: 6rem;
+}
+
+.pr--6 {
+  padding-right: 6rem;
+}
+
+.py--6 {
+  padding: 6rem 0;
+}
+
+.mt--7 {
+  margin-top: 7rem;
+}
+
+.mb--7 {
+  margin-bottom: 7rem;
+}
+
+.ml--7 {
+  margin-left: 7rem;
+}
+
+.mr--7 {
+  margin-right: 7rem;
+}
+
+.pt--7 {
+  padding-top: 7rem;
+}
+
+.pb--7 {
+  padding-bottom: 7rem;
+}
+
+.pl--7 {
+  padding-left: 7rem;
+}
+
+.pr--7 {
+  padding-right: 7rem;
+}
+
+.py--7 {
+  padding: 7rem 0;
+}
+
+.mt--8 {
+  margin-top: 8rem;
+}
+
+.mb--8 {
+  margin-bottom: 8rem;
+}
+
+.ml--8 {
+  margin-left: 8rem;
+}
+
+.mr--8 {
+  margin-right: 8rem;
+}
+
+.pt--8 {
+  padding-top: 8rem;
+}
+
+.pb--8 {
+  padding-bottom: 8rem;
+}
+
+.pl--8 {
+  padding-left: 8rem;
+}
+
+.pr--8 {
+  padding-right: 8rem;
+}
+
+.py--8 {
+  padding: 8rem 0;
+}
+
+.mt--9 {
+  margin-top: 9rem;
+}
+
+.mb--9 {
+  margin-bottom: 9rem;
+}
+
+.ml--9 {
+  margin-left: 9rem;
+}
+
+.mr--9 {
+  margin-right: 9rem;
+}
+
+.pt--9 {
+  padding-top: 9rem;
+}
+
+.pb--9 {
+  padding-bottom: 9rem;
+}
+
+.pl--9 {
+  padding-left: 9rem;
+}
+
+.pr--9 {
+  padding-right: 9rem;
+}
+
+.py--9 {
+  padding: 9rem 0;
+}
+
+.mt--10 {
+  margin-top: 10rem;
+}
+
+.mb--10 {
+  margin-bottom: 10rem;
+}
+
+.ml--10 {
+  margin-left: 10rem;
+}
+
+.mr--10 {
+  margin-right: 10rem;
+}
+
+.pt--10 {
+  padding-top: 10rem;
+}
+
+.pb--10 {
+  padding-bottom: 10rem;
+}
+
+.pl--10 {
+  padding-left: 10rem;
+}
+
+.pr--10 {
+  padding-right: 10rem;
+}
+
+.py--10 {
+  padding: 10rem 0;
+}
+
+.mt--11 {
+  margin-top: 11rem;
+}
+
+.mb--11 {
+  margin-bottom: 11rem;
+}
+
+.ml--11 {
+  margin-left: 11rem;
+}
+
+.mr--11 {
+  margin-right: 11rem;
+}
+
+.pt--11 {
+  padding-top: 11rem;
+}
+
+.pb--11 {
+  padding-bottom: 11rem;
+}
+
+.pl--11 {
+  padding-left: 11rem;
+}
+
+.pr--11 {
+  padding-right: 11rem;
+}
+
+.py--11 {
+  padding: 11rem 0;
+}
+
+.mt--12 {
+  margin-top: 12rem;
+}
+
+.mb--12 {
+  margin-bottom: 12rem;
+}
+
+.ml--12 {
+  margin-left: 12rem;
+}
+
+.mr--12 {
+  margin-right: 12rem;
+}
+
+.pt--12 {
+  padding-top: 12rem;
+}
+
+.pb--12 {
+  padding-bottom: 12rem;
+}
+
+.pl--12 {
+  padding-left: 12rem;
+}
+
+.pr--12 {
+  padding-right: 12rem;
+}
+
+.py--12 {
+  padding: 12rem 0;
+}
+
+.mt--13 {
+  margin-top: 13rem;
+}
+
+.mb--13 {
+  margin-bottom: 13rem;
+}
+
+.ml--13 {
+  margin-left: 13rem;
+}
+
+.mr--13 {
+  margin-right: 13rem;
+}
+
+.pt--13 {
+  padding-top: 13rem;
+}
+
+.pb--13 {
+  padding-bottom: 13rem;
+}
+
+.pl--13 {
+  padding-left: 13rem;
+}
+
+.pr--13 {
+  padding-right: 13rem;
+}
+
+.py--13 {
+  padding: 13rem 0;
+}
+
+.mt--14 {
+  margin-top: 14rem;
+}
+
+.mb--14 {
+  margin-bottom: 14rem;
+}
+
+.ml--14 {
+  margin-left: 14rem;
+}
+
+.mr--14 {
+  margin-right: 14rem;
+}
+
+.pt--14 {
+  padding-top: 14rem;
+}
+
+.pb--14 {
+  padding-bottom: 14rem;
+}
+
+.pl--14 {
+  padding-left: 14rem;
+}
+
+.pr--14 {
+  padding-right: 14rem;
+}
+
+.py--14 {
+  padding: 14rem 0;
+}
+
+.mt--15 {
+  margin-top: 15rem;
+}
+
+.mb--15 {
+  margin-bottom: 15rem;
+}
+
+.ml--15 {
+  margin-left: 15rem;
+}
+
+.mr--15 {
+  margin-right: 15rem;
+}
+
+.pt--15 {
+  padding-top: 15rem;
+}
+
+.pb--15 {
+  padding-bottom: 15rem;
+}
+
+.pl--15 {
+  padding-left: 15rem;
+}
+
+.pr--15 {
+  padding-right: 15rem;
+}
+
+.py--15 {
+  padding: 15rem 0;
+}
+
+.mt--16 {
+  margin-top: 16rem;
+}
+
+.mb--16 {
+  margin-bottom: 16rem;
+}
+
+.ml--16 {
+  margin-left: 16rem;
+}
+
+.mr--16 {
+  margin-right: 16rem;
+}
+
+.pt--16 {
+  padding-top: 16rem;
+}
+
+.pb--16 {
+  padding-bottom: 16rem;
+}
+
+.pl--16 {
+  padding-left: 16rem;
+}
+
+.pr--16 {
+  padding-right: 16rem;
+}
+
+.py--16 {
+  padding: 16rem 0;
+}
+
+.mt--17 {
+  margin-top: 17rem;
+}
+
+.mb--17 {
+  margin-bottom: 17rem;
+}
+
+.ml--17 {
+  margin-left: 17rem;
+}
+
+.mr--17 {
+  margin-right: 17rem;
+}
+
+.pt--17 {
+  padding-top: 17rem;
+}
+
+.pb--17 {
+  padding-bottom: 17rem;
+}
+
+.pl--17 {
+  padding-left: 17rem;
+}
+
+.pr--17 {
+  padding-right: 17rem;
+}
+
+.py--17 {
+  padding: 17rem 0;
+}
+
+.mt--18 {
+  margin-top: 18rem;
+}
+
+.mb--18 {
+  margin-bottom: 18rem;
+}
+
+.ml--18 {
+  margin-left: 18rem;
+}
+
+.mr--18 {
+  margin-right: 18rem;
+}
+
+.pt--18 {
+  padding-top: 18rem;
+}
+
+.pb--18 {
+  padding-bottom: 18rem;
+}
+
+.pl--18 {
+  padding-left: 18rem;
+}
+
+.pr--18 {
+  padding-right: 18rem;
+}
+
+.py--18 {
+  padding: 18rem 0;
+}
+
+.mt--19 {
+  margin-top: 19rem;
+}
+
+.mb--19 {
+  margin-bottom: 19rem;
+}
+
+.ml--19 {
+  margin-left: 19rem;
+}
+
+.mr--19 {
+  margin-right: 19rem;
+}
+
+.pt--19 {
+  padding-top: 19rem;
+}
+
+.pb--19 {
+  padding-bottom: 19rem;
+}
+
+.pl--19 {
+  padding-left: 19rem;
+}
+
+.pr--19 {
+  padding-right: 19rem;
+}
+
+.py--19 {
+  padding: 19rem 0;
+}
+
+.mt--20 {
+  margin-top: 20rem;
+}
+
+.mb--20 {
+  margin-bottom: 20rem;
+}
+
+.ml--20 {
+  margin-left: 20rem;
+}
+
+.mr--20 {
+  margin-right: 20rem;
+}
+
+.pt--20 {
+  padding-top: 20rem;
+}
+
+.pb--20 {
+  padding-bottom: 20rem;
+}
+
+.pl--20 {
+  padding-left: 20rem;
+}
+
+.pr--20 {
+  padding-right: 20rem;
+}
+
+.py--20 {
+  padding: 20rem 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+p {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+body {
+  color: #fff;
+  font-family: "Patrick Hand", cursive;
+  font-size: 2rem;
+  overflow-x: hidden;
+  line-height: 1.4;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+input,
+.booking__table textarea,
+textarea,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  font-family: "Patrick Hand", cursive;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+time {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.btn, .btn.bg--radius, .btn.bg--outline, .btn.bg--secondary {
+  padding: 0.8rem 2rem;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  border-radius: 2rem;
+}
+.btn.bg--secondary {
+  background-color: #dd1d01;
+  border: 1px solid #dd1d01;
+  font-weight: 700;
+  color: #fff;
+  box-shadow: rgba(231, 4, 4, 0.1) 0px 4px 12px;
+}
+.btn.bg--secondary:hover {
+  background-color: #fff;
+  color: #dd1d01;
+  transition: 0.5s;
+}
+.btn.bg--outline, .btn.bg--radius {
+  background-color: transparent;
+  color: #dd1d01;
+  border: 1px solid #dd1d01;
+  font-weight: 100;
+  box-shadow: rgba(231, 4, 4, 0.1) 0px 4px 12px;
+}
+.btn.bg--outline:hover, .btn.bg--radius:hover {
+  color: #fff;
+  transition: 0.5s;
+}
+.btn.bg--radius {
+  border-radius: 0.3rem;
+}
+
+.tns-outer {
+  overflow: hidden;
+  max-width: 70rem;
+}
+.tns-outer > button {
+  display: none;
+}
+
+.tns-nav {
+  text-align: center;
+}
+.tns-nav button {
+  margin: 2rem 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: none;
+}
+.tns-nav-active {
+  background-color: #dd1d01;
+}
+
+#controls {
+  position: absolute;
+}
+
+.prev, .next {
+  color: #dd1d01;
+  font-size: 2rem;
+  position: relative;
+  bottom: 16rem;
+  left: 6rem;
+}
+
+.next {
+  left: 80rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-family: "Cookie", cursive;
+}
+
+.header {
+  width: 100%;
+  z-index: 9999;
+  padding: 2rem 0;
+  box-shadow: rgba(221, 29, 1, 0.1) 0px 4px 12px;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__wrapper img {
+  height: 3rem;
+  width: 10rem;
+}
+.header__nav {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+.header__nav li a {
+  color: #fff;
+}
+.header__nav :hover {
+  color: #dd1d01;
+}
+
+.homeBanner {
+  padding: 10rem 0;
+}
+.homeBanner__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.homeBanner__wrapper h4 {
+  color: #dd1d01;
+  font-weight: 200;
+  letter-spacing: 0.5rem;
+  margin-bottom: 2rem;
+}
+.homeBanner__wrapper h1 {
+  color: #fff;
+  font-family: "Cookie", cursive;
+  text-shadow: #dd1d01 -2px -2px;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.homeBanner__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.homeMenu__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.homeMenu__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.homeMenu__wrapper img {
+  width: 17rem;
+}
+.homeMenu__card {
+  text-align: center;
+  padding: 2rem 1rem;
+  border: 2px solid transparent;
+  margin-top: 3rem;
+}
+.homeMenu__card:hover {
+  border: 2px solid #dd1d01;
+  border-radius: 2rem;
+}
+.homeMenu__card p {
+  color: #dd1d01;
+}
+
+.homeAbout {
+  background-image: url(../../IMG/about.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.homeAbout__text p {
+  max-width: 30rem;
+}
+
+.exploreMenu__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.exploreMenu__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+.exploreMenu__content ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.exploreMenu__content ul li {
+  color: #dd1d01;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.exploreMenu__content p {
+  margin-bottom: 2rem;
+}
+
+.booking__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../IMG/book\ a\ table\ bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+.booking__table {
+  padding: 5rem;
+  width: 60rem;
+  height: 45rem;
+}
+.booking__table h4 {
+  font-size: 2rem;
+}
+.booking__table form {
+  padding: 2rem;
+  border: 1px solid #fff;
+}
+.booking__table input, .booking__table textarea {
+  width: 98%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 1px solid #dd1d01;
+}
+.booking__table input::-moz-placeholder, .booking__table textarea::-moz-placeholder {
+  font-family: "Patrick Hand", cursive;
+  color: #fff;
+}
+.booking__table input::placeholder, .booking__table textarea::placeholder {
+  font-family: "Patrick Hand", cursive;
+  color: #fff;
+}
+.booking__table input:focus, .booking__table textarea:focus, .booking__table input:enabled, .booking__table textarea:enabled {
+  color: #fff;
+}
+.booking__table textarea {
+  height: 10rem;
+}
+.booking__fullName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+.testimonial__clients i {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  border: 2px solid #dd1d01;
+  padding: 1.5rem;
+  border-radius: 50%;
+}
+.testimonial__clients p {
+  margin-bottom: 1rem;
+}
+.testimonial__clients h4 {
+  font-size: 1.5rem;
+  color: #dd1d01;
+  font-weight: 400;
+}
+.testimonial__clients small {
+  font-weight: 600;
+}
+
+.video__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}/*# sourceMappingURL=main.min.css.map */
