@@ -14,23 +14,33 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
     />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- HEADER -->
-    <header class="header bg--dark position--fixed">
+    <header class="header bg--dark">
       <div class="container">
         <div class="header__wrapper">
           <img src="./IMG/81240106-logo1.png" alt="" />
           <nav>
             <ul class="header__nav">
-              <li><a href="">Home</a></li>
-              <li><a href="">Menu</a></li>
-              <li><a href="">Chefs</a></li>
-              <li><a href="">Product</a></li>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./menu.html">Menu</a></li>
+              <li><a href="./chefs.html">Chefs</a></li>
+              <li><a href="./product.html">Product</a></li>
               <li><a href="">Blog</a></li>
               <li><a href="">Contact</a></li>
             </ul>
           </nav>
+          <div class="toggle__menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </header>
@@ -38,7 +48,7 @@
     <!-- BANNER -->
     <section class="homeBanner bg--dark">
       <div class="container">
-        <div class="homeBanner__wrapper">
+        <div class="homeBanner__wrapper" data-aos="fade-down">
           <h4>IRRESISTIBLY GOOD</h4>
           <h1>The Rich Taste of Indian Flavors</h1>
           <p class="mb--3">
@@ -66,7 +76,7 @@
           </p>
         </div>
         <div class="homeMenu__wrapper">
-          <div class="homeMenu__card">
+          <div class="homeMenu__card" data-aos="fade-left">
             <img src="./IMG/rice.png" alt="" />
             <div class="homeMenu__text">
               <h3>The Rice Menu</h3>
@@ -74,7 +84,7 @@
               <a href="" class="btn bg--outline">View All Items</a>
             </div>
           </div>
-          <div class="homeMenu__card">
+          <div class="homeMenu__card" data-aos="zoom-in">
             <img src="./IMG/chicken.png" alt="" />
             <div class="homeMenu__text">
               <h3>The Chicken Menu</h3>
@@ -82,7 +92,7 @@
               <a href="" class="btn bg--outline">View All Items</a>
             </div>
           </div>
-          <div class="homeMenu__card">
+          <div class="homeMenu__card" data-aos="fade-right">
             <img src="./IMG/salad and greens.png" alt="" />
             <div class="homeMenu__text">
               <h3>Salad & Greens</h3>
@@ -98,7 +108,7 @@
     <section class="homeAbout">
       <div class="container">
         <div class="homeAbout__wrapper">
-          <div class="homeAbout__text">
+          <div class="homeAbout__text" data-aos="fade-left">
             <small class="text--secondary mb--2">Welcome To Delicia</small>
             <h2 class="title">About Our Restaurant</h2>
             <p class="mb--3">
@@ -117,8 +127,8 @@
     <section class="exploreMenu bg--primary py--5">
       <div class="container">
         <div class="exploreMenu__title">
-          <h2 class="title">Explore Our Menu</h2>
-          <p class="mb--2">
+          <h2 class="title" data-aos="zoom-in-down">Explore Our Menu</h2>
+          <p class="mb--2" data-aos="zoom-in-down">
             Crafted with a list of the most delicious Indian dishes, prepared
             with love and a <br />
             high passion for cooking.
@@ -127,76 +137,76 @@
         <div class="exploreMenu__wrapper">
           <div class="exploreMenu__content">
             <ul>
-              <li>Delicia Special Chicken</li>
-              <li>$25</li>
+              <li data-aos="zoom-in-right">Delicia Special Chicken</li>
+              <li data-aos="zoom-in-right">$25</li>
             </ul>
-            <p>
+            <p data-aos="zoom-in-right">
               Spicy, depp-fried boneless chicken marinated in special spices
             </p>
             <ul>
-              <li>Delicia Special Chicken</li>
-              <li>$25</li>
+              <li data-aos="zoom-in-right">Seekh Kebab</li>
+              <li data-aos="zoom-in-right">$25</li>
             </ul>
-            <p>
-              Spicy, depp-fried boneless chicken marinated in special spices
+            <p data-aos="zoom-in-right">
+              Minced lamb mixed with spices wrapped around a skewer
             </p>
             <ul>
-              <li>Delicia Special Chicken</li>
-              <li>$25</li>
+              <li data-aos="zoom-in-right">Keema Naan</li>
+              <li data-aos="zoom-in-right">$25</li>
             </ul>
-            <p>
-              Spicy, depp-fried boneless chicken marinated in special spices
+            <p data-aos="zoom-in-right">
+              Bread stuffed with ground lamb, lightly spiced
             </p>
             <ul>
-              <li>Delicia Special Chicken</li>
-              <li>$25</li>
+              <li data-aos="zoom-in-right">Beef Burger Meal</li>
+              <li data-aos="zoom-in-right">$25</li>
             </ul>
-            <p>
-              Spicy, depp-fried boneless chicken marinated in special spices
+            <p data-aos="zoom-in-right">
+              Classic greek, salad, garlic bread, aged feta cheese, bread
             </p>
             <ul>
-              <li>Delicia Special Chicken</li>
-              <li>$25</li>
+              <li data-aos="zoom-in-right">Butter Naan</li>
+              <li data-aos="zoom-in-right">$25</li>
             </ul>
-            <p>
-              Spicy, depp-fried boneless chicken marinated in special spices
+            <p data-aos="zoom-in-right">
+              Soft bread coated with a layer of butter
             </p>
           </div>
           <div class="exploreMenu__content">
             <ul>
-              <li>Delicia Special Chicken</li>
-              <li>$25</li>
+              <li data-aos="zoom-in-left">Delicia Special Chicken</li>
+              <li data-aos="zoom-in-left">$25</li>
             </ul>
-            <p>
+            <p data-aos="zoom-in-left">
               Spicy, depp-fried boneless chicken marinated in special spices
             </p>
             <ul>
-              <li>Delicia Special Chicken</li>
-              <li>$25</li>
+              <li data-aos="zoom-in-left">Seekh Kebab</li>
+              <li data-aos="zoom-in-left">$25</li>
             </ul>
-            <p>
-              Spicy, depp-fried boneless chicken marinated in special spices
+            <p data-aos="zoom-in-left">
+              Minced lamb mixed with spices wrapped around a skewer
             </p>
             <ul>
-              <li>Delicia Special Chicken</li>
-              <li>$25</li>
+              <li data-aos="zoom-in-left">Keema Naan</li>
+              <li data-aos="zoom-in-left">$25</li>
             </ul>
-            <p>
-              Spicy, depp-fried boneless chicken marinated in special spices
+            <p data-aos="zoom-in-left">
+              Bread stuffed with ground lamb, lightly spiced
             </p>
             <ul>
-              <li>Delicia Special Chicken</li>
-              <li>$25</li>
+              <li data-aos="zoom-in-left">Beef Burger Meal</li>
+              <li data-aos="zoom-in-left">$25</li>
             </ul>
-            <p>
-              Spicy, depp-fried boneless chicken marinated in special spices
+            <p data-aos="zoom-in-left">
+              Classic greek, salad, garlic bread, aged feta cheese, bread
             </p>
             <ul>
-              <li>Delicia Special Chicken</li>
-              <li>$25</li>
+              <li data-aos="zoom-in-left">Butter Naan</li>
+              <li data-aos="zoom-in-left">$25</li>
             </ul>
-            <p>
-              Spicy, depp-fried boneless chicken marinated in special spices
+            <p data-aos="zoom-in-left">
+              Soft bread coated with a layer of butter
             </p>
           </div>
         </div>
@@ -207,7 +217,7 @@
     <section class="booking bg--primary py--10">
       <div class="container">
         <div class="booking__wrapper">
-          <div class="booking__table bg--primary">
+          <div class="booking__table bg--primary" data-aos="zoom-in">
             <h4 class="text--secondary t-align--center mb--2">
               . Book A Table .
             </h4>
@@ -332,7 +342,117 @@
       </div>
     </section>
 
+    <!-- BLOG -->
+    <section class="blog bg--primary py--5">
+      <div class="container">
+        <div class="blog__text">
+          <h2>From Our Blog</h2>
+          <p>
+            Keep up with our last food trends, new items, and other updates and
+            news from <br />
+            our fun blogs and articles that explore the world Indian cuisine.
+          </p>
+        </div>
+        <div class="blog__wrapper">
+          <div class="blog__card">
+            <img src="./IMG/ramen.png" alt="" />
+            <h3>An Indian Version Of Ramen</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Veritatis harum aspernatur odit, iusto quibusdam suscipit omnis
+              facilis inventore illo ipsam?
+            </p>
+          </div>
+          <div class="blog__card">
+            <img src="./IMG/pasta.jpg" alt="" />
+            <h3>Art Of Making Paste Perfectly</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Veritatis harum aspernatur odit, iusto quibusdam suscipit omnis
+              facilis inventore illo ipsam?
+            </p>
+          </div>
+          <div class="blog__card">
+            <img src="./IMG/chicken at home.jpg" alt="" />
+            <h3>Make Grilled Chicken At Home</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Veritatis harum aspernatur odit, iusto quibusdam suscipit omnis
+              facilis inventore illo ipsam?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer bg--dark pt--5 pb--2">
+      <div class="container">
+        <div class="footer__wrapper">
+          <!-- 1 -->
+          <ul>
+            <li><img src="./IMG/81240106-logo1.png" alt="" /></li>
+            <li><span>Phone: </span>407-509-3646</li>
+            <li><span>Mail: </span>sketchix@support.com</li>
+            <li>
+              <span>Address: </span>16122 Collins Street West Victoria 8265
+              Australia
+            </li>
+          </ul>
+          <!-- 2 -->
+          <div class="footer__mobile">
+            <ul>
+              <li><h4 class="mb--2">Useful Link</h4></li>
+              <li>About Us</li>
+              <li>Food Menu</li>
+              <li>My Account</li>
+              <li>List an Item</li>
+            </ul>
+            <!-- 3 -->
+            <ul>
+              <li><h4 class="mb--2">Community</h4></li>
+              <li>Map</li>
+              <li>Store Location</li>
+              <li>Photography</li>
+              <li>Games</li>
+              <li>Music</li>
+            </ul>
+          </div>
+          <!-- last part -->
+          <div class="footer__lastpart">
+            <h4 class="mb--2">Community</h4>
+            <div class="footer__subscribe">
+              <input type="text" placeholder="Your Email Address" />
+              <a href="" class="btn bg--footer">Subscribe</a>
+            </div>
+            <ul class="footer__social">
+              <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="t-align--center mt--2">
+          ©Copyright 2022. Powered by WPDeveloper
+        </p>
+      </div>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="./js/slider.js"></script>
+    <script src="./js/toggleMenu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

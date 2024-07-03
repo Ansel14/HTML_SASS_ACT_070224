@@ -1,0 +1,31 @@
+@use "../abstract/" as *;
+
+.chefs {
+  padding: 8rem 0 5rem 0;
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  &__wrapper {
+    @include grid(4, 5rem);
+    width: 85rem;
+    margin: 0 auto;
+    @include mediaQuery(520px) {
+      width: auto;
+      grid-template-columns: 1fr;
+    }
+  }
+  &__card {
+    text-align: center;
+    img {
+      border-radius: 2rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    h4 {
+      color: $clr-secondary;
+    }
+  }
+}

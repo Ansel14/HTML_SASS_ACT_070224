@@ -31,9 +31,35 @@
       transition: 0.5s;
     }
   }
+  &.bg--outline--light {
+    @extend .btn;
+    background-color: transparent;
+    color: $clr-light;
+    border: 1px solid $clr-secondary;
+    font-weight: 100;
+    box-shadow: rgba(231, 4, 4, 0.1) 0px 4px 12px;
+    &:hover {
+      color: $clr-secondary;
+      transition: 0.5s;
+    }
+  }
   &.bg--radius {
     @extend .btn;
     @extend .bg--outline;
     border-radius: 0.3rem;
+  }
+  &.bg--footer {
+    @extend .btn;
+    padding: 0.2rem 2rem;
+    background-color: $clr-secondary;
+    border-radius: 2rem;
+    color: $clr-light;
+    font-weight: 600;
+    box-shadow: rgba(231, 4, 4, 0.1) 0px 4px 12px;
+    &:hover {
+      background-color: $clr-light;
+      border: 1px solid $clr-secondary;
+      color: $clr-secondary;
+    }
   }
 }
