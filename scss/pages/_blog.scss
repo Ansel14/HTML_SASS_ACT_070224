@@ -1,0 +1,26 @@
+@use "../abstract/" as *;
+@use "../base/" as *;
+
+.blog {
+  &__wrapper {
+    @include grid(1, 5rem);
+  }
+  &__card {
+    margin: 0 auto;
+    img {
+      width: 100vh;
+      border-radius: 2rem;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      @include mediaQuery(520px) {
+        font-size: 1.5rem;
+      }
+    }
+    p {
+      margin-bottom: 3rem;
+    }
+  }
+}

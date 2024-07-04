@@ -897,6 +897,7 @@ form,
 label,
 input,
 .booking__table textarea,
+.contact__form form textarea,
 textarea,
 legend,
 table,
@@ -1255,9 +1256,35 @@ img {
     transition: 0.5s ease;
   }
   .header .toggle__menu.open span:nth-child(3) {
-    transform: translate(0, -7px) rotate(-225deg);
+    transform: translate(0, -6px) rotate(-225deg);
     transition: 0.5s ease;
   }
+}
+
+.blog__wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 5rem;
+}
+.blog__card {
+  margin: 0 auto;
+}
+.blog__card img {
+  width: 100vh;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+.blog__card h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 520px) {
+  .blog__card h3 {
+    font-size: 1.5rem;
+  }
+}
+.blog__card p {
+  margin-bottom: 3rem;
 }
 
 .chefs {
@@ -1292,6 +1319,131 @@ img {
 }
 .chefs__card h4 {
   color: #dd1d01;
+}
+
+.contact__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding-bottom: 2rem;
+}
+.contact__details {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+@media screen and (max-width: 520px) {
+  .contact__details {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+.contact__details--text {
+  text-align: center;
+}
+.contact__details--text i {
+  color: #dd1d01;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+@media screen and (max-width: 520px) {
+  .contact__details--text i {
+    font-size: 1.5rem;
+  }
+}
+.contact__details--text p {
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 520px) {
+  .contact__details--text p {
+    font-size: 1.2rem;
+  }
+}
+.contact__map iframe {
+  border-radius: 2rem;
+}
+@media screen and (max-width: 520px) {
+  .contact__map iframe {
+    width: 25rem;
+    height: 15rem;
+  }
+}
+.contact__form {
+  width: 70rem;
+  height: auto;
+}
+@media screen and (max-width: 520px) {
+  .contact__form {
+    width: 25rem;
+    height: auto;
+  }
+}
+.contact__form--title h3 {
+  font-size: 2rem;
+}
+.contact__form--title p {
+  margin-bottom: 2rem;
+}
+.contact__form--title h3,
+.contact__form--title p {
+  text-align: center;
+}
+.contact__form form input, .contact__form form textarea {
+  width: 100%;
+  padding: 1rem;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+}
+.contact__form form input:focus, .contact__form form textarea:focus, .contact__form form input:enabled, .contact__form form textarea:enabled {
+  color: #fff;
+}
+.contact__form form textarea {
+  height: 10rem;
+}
+.contact__form--fullName {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+@media screen and (max-width: 520px) {
+  .contact__form--fullName {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+.contact__form--name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contact__form--name label {
+  margin: 2rem 0 1rem 0;
+}
+@media screen and (max-width: 520px) {
+  .contact__form--name label {
+    margin: 1rem 0 1rem 0;
+  }
+}
+.contact__form--input {
+  display: flex;
+  flex-direction: column;
+}
+.contact__form--input label {
+  margin: 2rem 0 1rem 0;
+}
+@media screen and (max-width: 520px) {
+  .contact__form--input label {
+    margin: 1rem 0 1rem 0;
+  }
+}
+.contact__form--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .homeBanner {
@@ -1515,35 +1667,35 @@ img {
   text-align: center;
 }
 
-.blog__text {
+.homeBlog__text {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
 }
-.blog__text h2 {
+.homeBlog__text h2 {
   font-size: 3rem;
   margin-bottom: 0.5rem;
   font-family: "Cookie", cursive;
 }
-.blog__text p {
+.homeBlog__text p {
   margin-bottom: 2rem;
 }
-.blog__wrapper {
+.homeBlog__wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
 }
 @media screen and (max-width: 520px) {
-  .blog__wrapper {
+  .homeBlog__wrapper {
     grid-template-columns: 1fr;
   }
 }
-.blog__card img {
+.homeBlog__card img {
   margin: 2rem 0;
 }
-.blog__card h3 {
+.homeBlog__card h3 {
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }

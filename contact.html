@@ -3,17 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Desilicious Chefs</title>
+    <title>Desilicious Contact</title>
     <link rel="stylesheet" href="./dist/css/main.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    /> -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- HEADER -->
@@ -40,54 +36,91 @@
       </div>
     </header>
 
-    <!-- CHEFS -->
-     <section class="chefs bg--primary">
-        <div class="container">
-            <h2>Our Chefs</h3>
-            <div class="chefs__wrapper">
-                <div class="chefs__card" data-aos="flip-up">
-                    <img src="./IMG/steve.jpg" alt="">
-                    <h3>Steve Harvey</h3>
-                    <h4>Senior Chef</h4>
-                </div>
-                <div class="chefs__card" data-aos="flip-up">
-                    <img src="./IMG/pitter.jpg" alt="">
-                    <h3>Pitter Fread</h3>
-                    <h4>Senior Chef</h4>
-                </div>
-                <div class="chefs__card" data-aos="flip-up">
-                    <img src="./IMG/kumlam.jpg" alt="">
-                    <h3>Ah Kum Lam</h3>
-                    <h4>Senior Chef</h4>
-                </div>
-                <div class="chefs__card" data-aos="flip-up">
-                    <img src="./IMG/isavella.jpg" alt="">
-                    <h3>Isavella Jessy</h3>
-                    <h4>Senior Chef</h4>
-                </div>
-                <div class="chefs__card" data-aos="flip-up">
-                    <img src="./IMG/eric.jpg" alt="">
-                    <h3>Eric Garciya</h3>
-                    <h4>Senior Chef</h4>
-                </div>
-                <div class="chefs__card" data-aos="flip-up">
-                    <img src="./IMG/jeff.jpg" alt="">
-                    <h3>Jeff Acoba</h3>
-                    <h4>Senior Chef</h4>
-                </div>
-                <div class="chefs__card" data-aos="flip-up">
-                    <img src="./IMG/johndoe.jpg" alt="">
-                    <h3>John Doe</h3>
-                    <h4>Senior Chef</h4>
-                </div>
-                <div class="chefs__card" data-aos="flip-up">
-                    <img src="./IMG/ry.jpg" alt="">
-                    <h3>Ry Romeo</h3>
-                    <h4>Senior Chef</h4>
-                </div>
+    <section class="contact bg--primary pt--8">
+      <div class="container">
+        <div class="contact__wrapper">
+          <div class="contact__details">
+            <div
+              class="contact__details--text"
+              data-aos="fade-right"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
+              <i class="fa-solid fa-phone-volume"></i>
+              <p>407-509-3646</p>
             </div>
+            <div
+              class="contact__details--text"
+              data-aos="fade-right"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
+              <i class="fa-solid fa-location-dot"></i>
+              <p>
+                4148 Rose Avenue, New Orleans, LA, <br />
+                Louisiana, 70114
+              </p>
+            </div>
+            <div
+              class="contact__details--text"
+              data-aos="fade-right"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
+              <i class="fa-solid fa-earth-americas"></i>
+              <p>contact@rentals.com</p>
+            </div>
+          </div>
+          <div class="contact__map" data-aos="zoom-in-up">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.372058564885!2d121.3454663758684!3d14.055193590195447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd5cd2d6006569%3A0x9075b8a72b9d5fb0!2sFrontline%20Business%20Solutions%2C%20Inc.!5e0!3m2!1sen!2sph!4v1720050012738!5m2!1sen!2sph"
+              width="1000"
+              height="600"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="contact__form" data-aos="flip-down">
+            <div class="contact__form--title">
+              <h3>Get In Touch</h3>
+              <p>Make it happen in 4 easy steps! Best Of Luck</p>
+            </div>
+            <form action="">
+              <div class="contact__form--fullName">
+                <div class="contact__form--name">
+                  <label>First Name</label>
+                  <input type="text" />
+                </div>
+                <div class="contact__form--name">
+                  <label>Last Name</label>
+                  <input type="text" />
+                </div>
+              </div>
+              <div class="contact__form--input">
+                <label>Email</label>
+                <input type="text" />
+              </div>
+              <div class="contact__form--input">
+                <label>Subject</label>
+                <input type="text" />
+              </div>
+              <div class="contact__form--input">
+                <label>Your Message</label>
+                <textarea></textarea>
+              </div>
+              <div class="contact__form--button">
+                <a href="" class="btn bg--secondary">Submit Form</a>
+              </div>
+            </form>
+          </div>
         </div>
-     </section>
+      </div>
+    </section>
 
     <!-- FOOTER -->
     <footer class="footer bg--dark pt--5 pb--2">
@@ -154,7 +187,7 @@
     <script src="./js/toggleMenu.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
-      </script>
+      AOS.init();
+    </script>
   </body>
 </html>
